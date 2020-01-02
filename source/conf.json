@@ -1,0 +1,77 @@
+{
+	"_readme": [
+		"注：uri 必须保障唯一性，若有重复引用，请使用 rewrite 注册新的 uri",
+		"由于设计缺陷，rewrite 时只能自定义最后一级路径",
+		"uri 格式 1 - 相对文档：a/b/c",
+		"uri 格式 2 - 相对站内：/usedoc/ap1/a/b/c",
+		"uri 格式 3 - 绝对地址：http://www.baidu.com",
+		"_readme 本身并没有什么软用"
+	],
+	"index": "radarVersion",
+	"rewrite": {
+		
+	},
+	"plugin": {
+		"emoji": false,
+		"taskList": true,
+		"tex": true,
+		"flowChart": true,
+		"sequenceDiagram": true
+	},
+	"menu": {
+		"toc": {
+			"startLevel": "1",
+			"overLevel": "1"
+		},
+		"items": [
+			{
+				"name": "Autolabor2.5",
+				"isOpen": true,
+				"items": [
+					{
+						"name": "雷达版",
+						"uri": "radarVersion"
+					},
+					{
+						"name": "常见问题",
+						"isOpen": false,
+						"items": [
+							{
+								"name": "使用",
+								"uri": "use"
+							},
+							{
+								"name": "开发",
+								"uri": "dev"
+							}
+						]
+					},
+					{
+						"name": "无雷达版",
+						"uri": "noRadarVersion"
+					},
+					{
+						"name": "无雷达无树莓派",
+						"uri": "baseVersion"
+					},
+					{
+						"name": "电路图",
+						"uri": "circuit"
+					},
+					{
+						"name": "Arduino烧写",
+						"uri": "arduino"
+					},
+					{
+						"name": "SD卡系统烧写",
+						"uri": "sd"
+					},
+					{
+						"name": "App开发教程",
+						"uri": "app"
+					}
+				]
+			}
+		]
+	}
+}
