@@ -32,7 +32,7 @@ lidar.taobao.com
 电脑控制机器人建图完毕，如何保存建图结果
 
 ```
-$ rosrun map_sever map_saver -f  地图文件名
+$ rosrun map_server map_saver -f  地图文件名
 ```
 
 ##### 4、觉得目前最大速度(0.25m/s)有点慢，如何提高
