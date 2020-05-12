@@ -49,7 +49,7 @@ ssh pi@192.168.1.1
 登陆成功后可以通过如下指令切换到root目录
 
 ```
-sudo su-
+sudo su
 ```
 
 # 启动介绍
@@ -77,8 +77,7 @@ startautolabor.sh 是 Autolabor的自动启动脚本,该脚本的内容如下.
 source /opt/ros/indigo/setup.bash
 export ROS_MASTER_URI=http://192.168.1.1:11311/
 export ROS_IP=192.168.1.1 
-roslaunch /opt/ros/indigo/share/rosbridge_server
-/launch/rosbridge_websocket.launch
+roslaunch /opt/ros/indigo/share/rosbridge_server/launch/rosbridge_websocket.launch
 ```
 其中第二行和第三行配置了ROS MASTER的IP地址和本机IP地址.
 
