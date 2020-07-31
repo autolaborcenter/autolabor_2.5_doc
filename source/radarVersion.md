@@ -158,7 +158,7 @@ ssh autolabor@192.168.2.1
 登陆成功后可以通过如下指令切换到root目录
 
 ```
-sudo su-
+sudo su
 ```
 
 <iframe frameborder="0" width="640" height="360" src="http://www.autolabor.com.cn/lib/video/docplay/5" allowfullscreen></iframe>
