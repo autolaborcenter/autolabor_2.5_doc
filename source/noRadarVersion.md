@@ -6,7 +6,7 @@
 
 由于Autolabor2.5无雷达版出厂SD卡默认为Autolabor OS SD卡镜像(雷达版)，用户收货后需重新烧写Autolabor OS SD卡镜像(无雷达版)。
 
-[镜像下载](http://192.144.142.81/autolabor2release20170510-raspberry3-ros-indigo.7z) / [SD卡烧写教程](sd)
+[镜像下载](http://download.autolabor.com.cn/AutolaborOS/autolabor1release20170425-raspberry3-debian-ros-indigo.7z) / [SD卡烧写教程](sd)
 
 收到机器人后,首先请按照视频进行组装,并使用手机App测试，手机App可以正常遥控机器人代表硬件与软件运行正常.
 
