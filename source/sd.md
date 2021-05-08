@@ -5,7 +5,7 @@
 ![](imgs/autolabor2.5-sd-1.png)
 ![](imgs/autolabor2.5-sd-2.png)
 
-注：请确保解压完全
+注：请确保解压完全。
 
 # 烧录SD卡
 
